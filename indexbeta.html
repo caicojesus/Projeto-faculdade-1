@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aldeia Geek</title>
+    <link rel="stylesheet" href="CSS/indexCss.css" />
+</head>
+
+<body>
+
+    <header id="top-nav">
+        <div id="AldeiaGeek">
+            <a href="indexbeta.html">AldeiaGeek</a>
+        </div>
+
+        <div id="search-container" style="display: none;">
+            <input type="text" id="search-bar" placeholder="Digite sua pesquisa..." />
+            <button id="search-button">Pesquisar</button>
+        </div>
+
+        <div id="nav-right">
+            <button id="search-toggle">🔍</button>
+            <button id="login-btn">Login ou Registrar-se</button>
+
+            <ul id="logout-menu">
+                <li id="logout-option">Sair</li>
+            </ul>
+        </div>
+    </header>
+
+    <nav class="holographic-container">
+        <div class="holographic-card"><a href="novidades.html">Novidades</a></div>
+        <div class="holographic-card"><a href="vestuario.html">Vestuário</a></div>
+        <div class="holographic-card"><a href="artigos.html">Artigos</a></div>
+        <div class="holographic-card"><a href="comunidade.html">Personalize</a></div>
+    </nav>
+
+    <main>
+        <img src="imagens/banner3.png" width="100%" height="100%" alt="Banner AldeiaGeek" class="banner" />
+
+        <h3 class="titulo-produtos">Promoções da semana</h3>
+
+        <section class="product-list">
+            <button class="product-card" onclick="window.location.href='detalhe.html'">
+    <p>Camisa Darth vader</p>
+    <img src="imagens/prod1.png" alt="Batman">
+    <figcaption>R$80,00</figcaption>
+  </button>
+
+            <button class="product-card" onclick="window.location.href='detalhe.html'">
+    <p>Caneca Itadori</p>
+    <img src="imagens/prod2.png" alt="Caneca">
+    <figcaption>R$39,90</figcaption>
+  </button>
+
+            <button class="product-card" onclick="window.location.href='detalhe.html'">
+    <p>Camisa Pokemon Gengar</p>
+    <img src="imagens/prod3.png" alt="Caneca">
+    <figcaption>R$70,00</figcaption>
+  </button>
+
+            <button class="product-card" onclick="window.location.href='detalhe.html'">
+    <p>Action Figure Zoro</p>
+    <img src="imagens/img4.png" alt="Caneca">
+    <figcaption>R$149,90</figcaption>
+  </button>
+
+            <button class="product-card" onclick="window.location.href='detalhe.html'">
+    <p>Box Tokyo Ghoul:Re</p>
+    <img src="imagens/prod5.webp" alt="Caneca">
+    <figcaption>R$562,90</figcaption>
+  </button>
+
+            <button class="product-card" onclick="window.location.href='detalhe.html'">
+    <p>Mousepad Tokyo Ghoul</p>
+    <img src="imagens/prod6.jpg" alt="Caneca">
+    <figcaption>R$40,90</figcaption>
+  </button>
+        </section>
+
+        <div id="popup-overlay">
+            <div id="popup-box">
+                <span id="popup-close">X</span>
+                <h3>Bem-vindo!</h3>
+                <button onclick="mostrarLogin()">Login</button>
+                <button onclick="registrar()">Registrar-se</button>
+
+                <div id="login-form">
+                    <h4>Entrar</h4>
+                    <form id="formLogin">
+                        <label for="usuario">Login:</label>
+                        <input type="text" id="usuario" name="usuario" required>
+
+                        <label for="senhaLogin">Senha:</label>
+                        <input type="password" id="senhaLogin" name="senhaLogin" required>
+
+                        <div id="erroLogin"></div>
+
+                        <button type="submit">Entrar</button>
+                        <button type="reset">Limpar</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <script src="JS/indexJs.js"></script>
+        <script src="JS/login.js"></script>
+        
+            <!--MAJU CONSERTA ESSA PORRA E DEIXA BONIT, TE AMO-->
+
+                           <!--RODAPÉ DA PAGINA-->
+     
+
+        <section class="Assinar "> 
+                 <h4 > assinar novidades </h4>
+                 <input class="barra-rodape" type="text" placeholder="Digite seu Email" > 
+                 <button class="click-aqui"> ASSINAR </button>
+                </section>
+
+                <h1 class="rodape-titulo">Aldeia Geek</h1>
+              
+
+                <a href="https://www.facebook.com/" > <img src="imagens/img16.jpg" class="imginstagram"></a>
+                <a href="https://www.instagram.com/" ><img src="imagens/img15.png" class="imginstagram"></a>
+                <a href="https://x.com/" ><img src="imagens/img17.png" class="imginstagram"></a>
+                <a href="https://web.whatsapp.com/" ><img src="imagens/img18.png" class="imginstagram"></a> 
+                  <hr>
+
+                  <p class="formas-pagamento"> FORMAS DE PAGAMENTO <br>  
+                    <img src="imagens/img19.png" >
+                    <img src="imagens/img20.png" >
+                    <img src="imagens/img21.png" >
+                    <img src="imagens/img22.png" >
+                  </p>
+
+                <br><p class="texto-final">© 2025 AldeiaGeek • Todos os direitos reservados •  <a href="#">Email: exemplo@projeto.com</a> <br>
+
+
+                                                        <!--texto final -->
+                    <br><p class="consideração-final">Bem-vindo ao Studio Geek Há mais de uma década somos referência em criatividade e estilo no universo geek e da cultura pop. 
+                        Nossa loja online reúne uma seleção exclusiva de camisetas geek, baby look feminina, camiseta personalizada, moletons, canecas divertidas e ecobags, sempre com qualidade e originalidade.
+                        Mais do que uma loja de camisetas, somos uma marca que cria produtos criativos para o seu dia a dia e também para quem busca presentes personalizados.
+                        O Studio Geek é o destino certo para quem vive e celebra o universo nerd todos os dias.</p>
+
+                <br><p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+            </footer>
+        </footer>
+</body>
+
+</html>
